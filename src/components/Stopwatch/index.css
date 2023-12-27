@@ -1,0 +1,102 @@
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #ffffff;
+  width: 350px;
+  border-radius: 12px;
+  margin-left: 120px;
+  padding: 32px;
+  box-shadow: 0px 4px 40px rgba(23, 31, 70, 0.16);
+}
+
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media Screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+    text-align: start;
+    /* padding: 40px; */
+    padding-left: 60px;
+  }
+  .paragraph {
+    font-size: 30px;
+  }
+}
+.timer-cont {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.paragraph {
+  color: #333333;
+  font-size: 23px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.clock-img {
+  height: 60px;
+  width: 60px;
+  padding: 15px;
+}
+
+.heading-2 {
+  color: #333333;
+  font-size: 60px;
+  font-family: 'Roboto';
+}
+
+.button-1 {
+  color: #ffffff;
+  height: 35px;
+  width: 75px;
+  margin-right: 9px;
+  background-color: #1db05f;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.button-2 {
+  color: #ffffff;
+  height: 35px;
+  width: 75px;
+  margin-right: 9px;
+  background-color: #ef0d36;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.button-3 {
+  color: #ffffff;
+  height: 35px;
+  width: 75px;
+  margin-right: 9px;
+  background-color: #eaa800;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+}
